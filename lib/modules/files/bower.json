@@ -1,0 +1,26 @@
+{
+  "name": "<%=component.name%>",
+  "version": "0.0.13",
+  "homepage": "https://github.com/<%=component.repository%>",
+  "authors": [
+    "Morulus <vladimirmorulus@gmail.com>"
+  ],
+  "description": "<%=component.description%>",
+  "main": "<%=component.main%>",
+  "authors": <%=JSON.stringify(component.authors, null, 2)%>,
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
