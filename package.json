@@ -1,0 +1,30 @@
+{
+  "name": "synthetic-cli",
+  "version": "0.0.1",
+  "description": "Node.js syntehtic client.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/syntehticjs/syntehtic-cli"
+  },
+  "keywords": [
+    "dron"
+  ],
+  "author": "morulus <vladimirmorulus@gmail.com> (http://github.com/morulus/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syntehticjs/syntehtic-cli/issues"
+  },
+  "homepage": "https://github.com/syntehticjs/syntehtic-cli",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "extend": "^3.0.0",
+    "file-watch": "^0.1.0",
+    "polyinherit": "^1.0.0",
+    "prompt": "^0.2.14",
+    "underscore": "^1.8.3"
+  },
+  "bin": {
+    "synthetic": "cli"
+  }
+}

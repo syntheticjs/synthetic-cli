@@ -1,0 +1,6 @@
+#! /usr/bin/env node
+// -*- js -*-
+
+"use strict";
+
+var dron = require('./lib/cli.js')(process.cwd(), process.argv);
