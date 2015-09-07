@@ -1,6 +1,6 @@
 {
   "name": "<%=component.name%>",
-  "version": "0.0.13",
+  "version": "0.0.1",
   "homepage": "https://github.com/<%=component.repository%>",
   "authors": [
     "Morulus <vladimirmorulus@gmail.com>"
@@ -24,6 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "synthetic": "latest"
+    "synthetic": "latest",
+    "synthetic-demo": "latest"
   }
 }
